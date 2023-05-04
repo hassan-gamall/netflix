@@ -1,0 +1,468 @@
+.parent header .navbar .navbar__brand img{
+    width: 140px;
+
+}
+body{
+    background-color: black;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    background-color: rgba(0, 0, 0, 0.495);
+}
+.parent header .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 35px 50px;
+    box-sizing: border-box;
+}
+.parent header .navbar .nav__item a .signin__button{
+    background-color: #dc030f;
+    border: 1px solid #dc030f;
+    color: white;
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    padding: 10px 20px;
+}
+/* end navbar */
+.parent {
+    background-image:url(img/bb.jpg) ;
+    width: 100%;
+    height: 100vh;
+    background-size:100% 100% ;
+}
+.parent .mydiv{
+    width: 100%;
+    height: 84vh;
+    background-color: rgba(0, 0, 0, 0.495);
+    text-align: center;
+    padding: 100px 0px;
+    color: white;
+}
+.parent .mydiv .hero__card h1{
+    font-size: 50px;
+    font-weight: 700;
+}
+.parent .mydiv .hero__card p{
+    font-weight:400 ;
+    font-size: 20px;
+}
+.parent .mydiv .hero__card .myin0{
+width: 500px;
+}
+
+.parent .mydiv .hero__card  .z0{
+    display: flex;
+    justify-content: center;
+}
+
+.parent .mydiv .hero__card  .z0 .btn{
+    background-color: #dc030f;
+   color: #fff; 
+    padding:17px ;
+}
+
+.parent .mydiv .hero__card .email__form__container .primary__button{
+    background-color: #dc030f;
+    margin-top: 10px;
+    border: 1px solid #dc030f;
+    color: white;
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    padding: 10px 20px;
+}
+/* end parent */
+
+.p1{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: #fff;
+    border-top: 10px solid rgba(117, 114, 114, 0.592);
+}
+.p1 .l1{
+  
+    width: 38%;
+}
+.p1 .l1 h1{
+    font-weight: 700;
+    font-size: 50px;
+    margin-top: 100px;
+}
+.p1 .l1 p{
+    font-size: 24px;
+    font-weight: 400;
+}
+.p1 .l2{
+    position: relative;
+   
+}
+
+.p1 .l2 .v1 {
+    position: absolute;
+    top: 20%;
+    left: 13%;
+    height: 100%;
+    max-width: 73%;
+    max-height: 54%;
+}
+/* end p1 */
+
+.p2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: black;
+    color: #fff;
+    border-top: 10px solid rgba(117, 114, 114, 0.592);
+    padding-bottom: 40px;
+}
+.p2 .k1 {
+    width: 30%;
+    padding-bottom: 40px;
+}
+.p2 .k1 img{
+    width: 100%;
+    height: 100%;
+
+}
+.p2 .k2{
+    width: 40%;
+    
+}
+.p2 .k2 h1{
+    font-weight: 700;
+    font-size: 50px;
+    margin-top: 100px;
+}
+.p2 .k2 p{
+    font-size: 24px;
+    font-weight: 400;
+}
+/* end p2 */
+.p3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: black;
+    color: #fff;
+    border-top: 10px solid rgba(117, 114, 114, 0.592);
+    padding-bottom: 40px;
+}
+.p3 .j1 {
+    width: 40%;
+}
+.p3 .j1 h1{
+    margin-top: 100px;
+    font-size: 50px;
+    font-weight: 700;
+}
+.p3 .j1 p{
+    font-size: 25px;
+    font-weight: 400;
+}
+.p3 .j2{
+    margin-top: 20px;
+    width: auto;
+}
+/* end p3 */
+.p4{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: black;
+    color: #fff;
+    border-top: 10px solid rgba(117, 114, 114, 0.592);
+    padding-bottom: 40px;
+}
+.p4 .g2 {
+    width: 50%;
+}
+.p4 .g2 h1{
+    margin-top: 100px;
+    font-size: 50px;
+    font-weight: 700;
+}
+.p4 .g2 p{
+    font-size: 25px;
+    font-weight: 400;
+}
+.p4 .g1 img{
+    width: 500px;
+}
+.p4 .g1 {
+    margin-top: 40px;
+}
+
+/* end p4 */
+.f1{
+    background-color: black;
+    color: #fff;
+    border-top: 10px solid rgba(117, 114, 114, 0.592);
+    padding-bottom: 40px;
+    text-align: center;
+    margin: auto;
+}
+.f1 h1 {
+    margin-top: 35px;
+}
+.f1 .m0 {
+    width: 50%;
+    text-align: center;
+    margin: auto;
+   margin-top: 30px;
+   
+}
+.f1 p{
+    font-size: 21px;
+    font-weight: 400;
+    margin-top: 30px;  
+}
+.f1 .z1{
+    display: flex;
+    justify-content: center;
+}
+.f1 .myin{
+    width: 500px;
+}
+.f1 .z1 .btn{
+    background-color: #dc030f;
+   color: #fff; 
+    padding:18px ;
+}
+
+/* end f1 */
+footer{
+    background-color: black;
+    color: rgba(117, 114, 114, 0.592);
+    border-top: 10px solid rgba(117, 114, 114, 0.592);
+    text-align: center;
+    padding-bottom: 20px;
+}
+footer .footer__row__1{
+    margin-top: 30px;
+}
+footer .footer__row__2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: start;
+}
+
+/* end footer  */
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 500px){
+
+
+
+    .parent .mydiv .hero__card  .z0{
+        display: block;
+    }
+    .parent .mydiv .hero__card  .z0 .myin0{
+        width: 80%;
+        margin: auto;
+    }
+    .parent .mydiv .hero__card  .z0 .btn{
+        padding: 10px;
+    }
+
+.p1{
+    display: block;
+}
+.p1 .vv{
+   width: 285px; 
+}
+.p1 .l2 img{
+   width: 100%;
+}
+.p1 .l1{
+    width: 100%;
+}
+.p2{
+    display: block;
+}
+.p2 .k1{
+    width: 100%;
+    margin: auto;
+}
+.p2 .k2{
+    width: 100%;
+}
+.p2 .k2 h1{
+    margin-top: 0px;
+}
+
+.p3{
+    display: block;
+}
+.p3 .j1{
+    width: 100%;
+}
+.p3 .j2 img{
+    width: 350px;
+}
+.p4{
+    display: block;
+}
+.p4 .g1 img{
+width: 350px;
+}
+.p4 .g2{
+    width: 100%;
+}
+.f1 .m0{
+    width: 100%;
+}
+.f1 .z1 {
+    display: block;
+}
+.f1 .z1 .myin{
+    width: 80%;
+    margin: auto;
+}
+footer .footer__row__2 .column__1{
+    width: 50%;
+    margin: 30px 0px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 650px){
+*{
+    margin: 0px;
+    padding: 0px;
+}
+    .parent .mydiv .hero__card  .z0{
+        display: block;
+    }
+    .parent .mydiv .hero__card  .z0 .myin0{
+        width: 80%;
+        margin: auto;
+    }
+    .parent .mydiv .hero__card  .z0 .btn{
+        padding: 10px;
+    }
+
+.p1{
+    display: block;
+}
+.p1 .vv{
+   visibility: hidden;
+}
+.p1 .v1{
+    visibility: hidden;
+}
+.p1 .l2 img{
+   width: 100%;
+}
+.p1 .l1{
+    width: 100%;
+}
+.p2{
+    display: block;
+}
+.p2 .k1{
+    width: 100%;
+    text-align: center;
+    margin: auto;
+}
+.p2 .k2{
+    width: 100%;
+}
+.p2 .k2 h1{
+    margin-top: 0px;
+}
+
+.p3{
+    display: block;
+}
+.p3 .j1{
+    width: 100%;
+    margin: auto;
+}
+.p3 .j2 img{
+    width: 100%;
+}
+.p4{
+    display: block;
+}
+.p4 .g1 img{
+width: 100%;
+}
+.p4 .g2{
+    width: 100%;
+}
+.f1 .m0{
+    width: 100%;
+}
+.f1 .z1 {
+    display: block;
+}
+.f1 .z1 .myin{
+    width: 80%;
+    margin: auto;
+}
+footer .footer__row__2 .column__1{
+    width: 50%;
+    margin: 30px 0px;
+}
+
+}
+
+
+
+@media screen and (max-width: 900px){
+
+
+.p1{
+    display: block;
+}
+.p1 .l1{
+    width: 100%;
+}
+.p2 .k1{
+    width: 55%;
+}
+.p3 .j1{
+    width: 100%;
+}
+.p4 .g2{
+    width: 100%;
+}
+
+.f1 .m0{
+    width: 80%;
+}
+
+
+
+
+
+
+
+
+
+
+}
